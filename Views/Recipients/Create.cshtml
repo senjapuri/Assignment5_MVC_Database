@@ -1,0 +1,63 @@
+﻿@model BloodBank.Models.Recipient
+
+@{
+    ViewData["Title"] = "Recipient Registration Form";
+}
+
+<div class="container py-4">
+    <h1 class="display-4 mb-4 text-center text-danger">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-danger">
+                <div class="card-body">
+                    <h4 class="card-title text-danger">Recipient Information</h4>
+                    <hr />
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="RecipientName" class="control-label text-danger">Recipient Name</label>
+                            <input asp-for="RecipientName" class="form-control" />
+                            <span asp-validation-for="RecipientName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Age" class="control-label text-danger">Age</label>
+                            <input asp-for="Age" class="form-control" />
+                            <span asp-validation-for="Age" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BloodType" class="control-label text-danger">Blood Type</label>
+                            <input asp-for="BloodType" class="form-control" />
+                            <span asp-validation-for="BloodType" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Contact" class="control-label text-danger">Contact</label>
+                            <input asp-for="Contact" class="form-control" />
+                            <span asp-validation-for="Contact" class="text-danger"></span>
+                        </div>                        
+                        <div class="form-group">
+                            <label asp-for="MedicalCondition" class="control-label text-danger">Medical Condition</label>
+                            <input asp-for="MedicalCondition" class="form-control" />
+                            <span asp-validation-for="MedicalCondition" class="text-danger"></span>
+                        </div>
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-danger">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-6 text-center">
+            <a asp-action="Index" class="btn btn-outline-danger">Back to List</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

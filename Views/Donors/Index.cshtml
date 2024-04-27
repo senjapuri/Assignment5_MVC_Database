@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BloodBank.Models.Donor>
+
+@{
+    ViewData["Title"] = "Donor List";
+}
+
+
+<div class="container py-4">
+    <h1 class="display-4 mb-4 text-center">@ViewData["Title"]</h1>
+
+    <div class="row mb-3">
+        <div class="col text-right">
+            <a class="btn btn-success" asp-action="Create">Add New Donor</a>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th style="width: 15%;" scope="col">Donor Name</th>
+                    <th style="width: 10%;" scope="col">Age</th>
+                    <th style="width: 10%;" scope="col">Blood Type</th>
+                    <th style="width: 15%;" scope="col">Contact</th>                   
+                    <th style="width: 20%;" scope="col">Medical History</th>
+                    <th style="width: 15%;" scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.DonorName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Age)</td>
+                        <td>@Html.DisplayFor(modelItem => item.BloodType)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Contact)</td>                        
+                        <td>@Html.DisplayFor(modelItem => item.MedicalHistory)</td>
+                        <td>
+                            <div class="btn-group" role="group" aria-label="Actions">
+                                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.DonorId">Details</a>
+                                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.DonorId">Edit</a>
+                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.DonorId"
+                                   onclick="return confirm('Are you sure you want to delete this donor?')">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

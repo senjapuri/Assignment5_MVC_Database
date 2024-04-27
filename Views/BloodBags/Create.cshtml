@@ -1,0 +1,73 @@
+﻿@model BloodBank.Models.BloodBag
+
+@{
+    ViewData["Title"] = "New BloodBag Form";
+}
+
+
+<div class="container py-4">
+    <h1 class="display-4 mb-4 text-center text-danger">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-danger">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Blood Bag Information</h4>
+                    <hr />
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="DonorId" class="control-label text-danger">Donor</label>
+                            <select asp-for="DonorId" class="form-control" asp-items="ViewBag.DonorId">
+                                <option value="">-- Select Donor --</option>
+                            </select>
+                            <span asp-validation-for="DonorId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="RecipientId" class="control-label text-danger">Recipient</label>
+                            <select asp-for="RecipientId" class="form-control" asp-items="ViewBag.RecipientId">
+                                <option value="">-- Select Recipient --</option>
+                            </select>
+                            <span asp-validation-for="RecipientId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DonationDate" class="control-label text-danger">Donation Date</label>
+                            <input asp-for="DonationDate" class="form-control" />
+                            <span asp-validation-for="DonationDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ExpiryDate" class="control-label text-danger">Expiry Date</label>
+                            <input asp-for="ExpiryDate" class="form-control" />
+                            <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BloodType" class="control-label text-danger">Blood Type</label>
+                            <input asp-for="BloodType" class="form-control" />
+                            <span asp-validation-for="BloodType" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Volume" class="control-label text-danger">Volume (ml)</label>
+                            <input asp-for="Volume" class="form-control" />
+                            <span asp-validation-for="Volume" class="text-danger"></span>
+                        </div>                        
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-danger">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-8 text-center">
+            <a asp-action="Index" class="btn btn-outline-danger">Back to List</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

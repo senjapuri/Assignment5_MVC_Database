@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BloodBank
+build_property.RootNamespace = BloodBank
+build_property.ProjectDir = C:\Users\samen\OneDrive\Documents\Desktop\MVC\BloodBank Final 1\BloodBank Final\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\samen\OneDrive\Documents\Desktop\MVC\BloodBank Final 1\BloodBank Final
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/BloodBags/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RCYWdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/BloodBags/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RCYWdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/BloodBags/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RCYWdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/BloodBags/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RCYWdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/BloodBags/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RCYWdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Donors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Donors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Donors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Donors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Donors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ub3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/HelloWorld/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/HelloWorld/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxXZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Home/Article.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Recipients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Recipients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Recipients/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Recipients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Recipients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samen/OneDrive/Documents/Desktop/MVC/BloodBank Final 1/BloodBank Final/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ruzb7fef2q
